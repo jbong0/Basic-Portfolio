@@ -1,3 +1,30 @@
+/* Header CSS */
+
+#title{
+  background-color: #4aaaa5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding: 25px;
+  margin: 0px 50px 0px 0px;
+  text-align: center;
+  width: 250px;
+  height: 45px;
+  display: inline-block
+}
+
+#headerlinks{
+  font-size: 20px;
+  background-color: #ffffff;
+  display: inline;
+  border-right: 1px solid #bbb;
+  padding: 3px;
+  margin: auto;
+  display: inline-block;
+  text-align: right;
+}
+
+
 body{
   background-color: #ffffff;
   width: 960px;
@@ -5,14 +32,8 @@ body{
 
 }
 
-#title{
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 25px;
-  margin: 0px 0px 0px 0px;
-  width: 250px;
-}
+
+
 
 #border{
   background-image: url(circles-light.png);
@@ -20,18 +41,8 @@ body{
   border-style: solid;
 }
 
-li{
-  font-size: 20px;
-  background-color: #ffffff;
-  display: inline;
-  border-right: 1px solid #bbb;
-  padding: 3px;
-}
 
-ol{
-  text-align: right;
 
-}
 #sidebar{
   background-color: #ffffff;
   width: 270px;
@@ -46,7 +57,7 @@ h2{
   background-color: white;
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-left: 20px;
+  margin: auto;
 }
 
 .social-media{
@@ -58,13 +69,12 @@ div {
   background-color: white;
   border: 2px solid gray;
   overflow: hidden;
-  margin-right; 20px;
 }
 
 #bio-image{
   height: 200px;
   float: left;
-  margin: 20px 20px 20px 20px;
+  margin: auto;
 }
 
 p{
