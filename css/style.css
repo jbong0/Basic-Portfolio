@@ -1,5 +1,21 @@
 /* Header CSS */
 
+#title{
+  background-color: #4aaaa5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 25px 40px 25px;
+  margin: 0px 0px 0px 0px;
+  width: 250px;
+  height: 45px;
+  border: none;
+  left: -150px;
+  position: auto;
+  overflow: visible;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 header{
   width: 960px;
   font-family: Arial, Helvetica, sans-serif;
@@ -7,57 +23,75 @@ header{
   position: relative;
 }
 
-#title{
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 0px  20px 20px 20px;
-  width: 250px;
-  height: 45px;
-  border: none;
-}
 
-#header-links{
+nav{
   position: absolute;
 	right: 0px;
-  bottom: 23px;
+  bottom: 0px;
   border: none;
+  padding-bottom: 40px;
 }
 
-/* Body CSS */
 
-#sidebar{
+/* Body CSS */
+#container{
+  background-image: url(circles-light.png);
+  padding: 40px;
+}
+
+/* Sidebar CSS */
+aside{
   background-color: #ffffff;
   width: 270px;
   float: right;
-  margin: 0px 200px 0px 45px;
+  text-align: center;
 }
 
+/* Section Titles CSS */
 h2, h3 {
   background-color: white;
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: auto;
- 
+  margin-bottom: 0px;
+  border-bottom: solid 2px grey;
+  padding: 10px 0px 10px 0px;
+  font-size: 30px;
 }
 
+/* Contact Links CSS */
 .social-media{
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin: 10px -10px -10px -10px;
+    height: auto;
 }
 
-div {
+aside, div {
   background-color: white;
   border: 2px solid gray;
   overflow: hidden;
   position: relative;
   width: fit-content;
+  padding: 0px 40px 40px 40px;
+  margin: 0px 140px 0px 40px;
 } 
-  
+
+img {
+  -webkit-filter: grayscale(1);
+}
+
+img:hover {
+  -webkit-filter: none;
+  transform: scale(1.2) rotate(720deg);
+}
+
+
+/* About Me CSS */
 #bio-image{
-  height: 200px;
+  width: 200px;
   float: left;
   margin: 10px;
+  -webkit-filter: none;
+  transform: none;
 }
 
 #about-me{
@@ -67,22 +101,38 @@ div {
   text-indent: 50px;
   overflow: visible;
   position: relative;
-  margin: 0px 0px 0px 140px;
-  
+  padding-left: 25px;
+  padding-top: 30px
+  font-size: 16px;
 }
 
 /* Footer CSS */
 
+.footer{
+  text-align: center;
+  font-size: 14px;
+}
 footer{
 	background-color: #666666;
-	text-align: center;
 	border-top: 9px solid #4aaaa5;
   color: white;
-  font-size: 16px;
   text-emphasis: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center
+
 }
 
+/* Links CSS */
 a{
   border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: grey;
+}
+a:visited{
+  color: #4aaaa5;
+}
+p {
+  text-align: justify;
+  text-align-last: auto;
 }
