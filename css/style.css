@@ -1,6 +1,6 @@
 /* Header CSS */
 
-#title{
+#title {
   background-color: #4aaaa5;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -119,7 +119,6 @@ footer{
   text-emphasis: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center
-
 }
 
 /* Links CSS */
@@ -132,7 +131,19 @@ a{
 a:visited{
   color: #4aaaa5;
 }
+a:active{
+  color: #4aaaa5;
+}
+a:hover{
+  color: grey;
+}
 p {
   text-align: justify;
   text-align-last: auto;
 }
+
+/* Contact Form CSS */
+
+
+
+/* Portfolio CSS */
