@@ -1,6 +1,5 @@
 /* Header CSS */
-
-#title {
+#title{
   background-color: #4aaaa5;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,7 +25,7 @@ header{
 
 nav{
   position: absolute;
-	right: 0px;
+  right: 0px;
   bottom: 0px;
   border: none;
   padding-bottom: 40px;
@@ -42,9 +41,10 @@ nav{
 /* Sidebar CSS */
 aside{
   background-color: #ffffff;
-  width: 270px;
+  width: 33.3%;
   float: right;
   text-align: center;
+  margin: 10px;
 }
 
 /* Section Titles CSS */
@@ -54,8 +54,9 @@ h2, h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 0px;
   border-bottom: solid 2px grey;
-  padding: 10px 0px 10px 0px;
+  padding: 5px 0px 5px 0px;
   font-size: 30px;
+  text-align: left;
 }
 
 /* Contact Links CSS */
@@ -71,8 +72,8 @@ aside, div {
   overflow: hidden;
   position: relative;
   width: fit-content;
-  padding: 0px 40px 40px 40px;
-  margin: 0px 140px 0px 40px;
+  padding: 0px 20px 40px 40px;
+  margin: 0px 40px 40px 40px;
 } 
 
 img {
@@ -100,10 +101,9 @@ img:hover {
   line-height: 2;
   text-indent: 50px;
   overflow: visible;
-  position: relative;
   padding-left: 25px;
-  padding-top: 30px
-  font-size: 16px;
+  padding-top: 0px
+  font-size: 14px;
 }
 
 /* Footer CSS */
@@ -113,8 +113,8 @@ img:hover {
   font-size: 14px;
 }
 footer{
-	background-color: #666666;
-	border-top: 9px solid #4aaaa5;
+  background-color: #666666;
+  border-top: 9px solid #4aaaa5;
   color: white;
   text-emphasis: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -131,19 +131,74 @@ a{
 a:visited{
   color: #4aaaa5;
 }
-a:active{
-  color: #4aaaa5;
-}
 a:hover{
-  color: grey;
+  color:grey;
 }
 p {
   text-align: justify;
   text-align-last: auto;
 }
 
+
 /* Contact Form CSS */
 
+#contact-container{
+  background-image: url(circles-light.png);
+  padding: 10px;
+}
+
+#contactform{
+  width: 55%;
+  height: 600px;  
+}
+
+input, textarea, fieldset{
+  color: #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 35px;
+  width: 590px;
+}
+
+button{
+  border: solid 1px #666;
+  color: #fff;
+  background: #4aaaa5;
+  width: 100px;
+  height 35px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 500px;
+}
 
 
-/* Portfolio CSS */
+#message{
+  width: 500px;
+  height: 250px;
+}
+
+textarea{
+  width: 590px;
+  height: 220px; 
+  border: hidden;
+}
+
+h5{
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  color: grey;
+}
+input{
+  font-size: 16px;
+  border: none;
+}
+
+form{
+  text-align: center;
+}
+
+box{
+  color: #4aaaa5;
+  width: 100px
+  height: 100px;
+}
