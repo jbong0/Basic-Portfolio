@@ -123,9 +123,7 @@ border-radius: 50%;
 -o-transform: rotate(360deg);
 -ms-transform: rotate(360deg);
 transform: rotate(360deg);
--webkit-filter: grayscale(1);
-
-      }
+}
 
 #bio-image{
   width: 200px;
@@ -141,12 +139,11 @@ transform: rotate(360deg);
    -ms-transition: none;
   transition: none;
 }
-}
 
 /* Footer CSS */
 .footer{
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
